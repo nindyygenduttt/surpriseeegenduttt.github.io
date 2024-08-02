@@ -3,77 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surprise untuk Kamu!</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #ffebcd;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            color: #333;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            position: relative;
-        }
-        .heart {
-            position: absolute;
-            top: -50px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 50px;
-            color: red;
-            animation: beat 1s infinite;
-        }
-        @keyframes beat {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.2);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        p {
-            font-size: 1.2em;
-            margin-top: 10px;
-        }
-        .button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            color: #fff;
-            background-color: #ff69b4;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .button:hover {
-            background-color: #ff1493;
-        }
-    </style>
+    <title>Kamu Sangat Istimewa</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="heart">❤️</div>
-        <h1>Selamat Datang Nindy!</h1>
-        <p>Kamu adalah orang yang paling spesial dalam hidupku. Semoga hari ini menyenangkan seperti kamu yang selalu membuatku bahagia.</p>
-        <a href="#" class="button">I LOVE YOU GENDUTT
-        </a>
+        <h1 class="title">Hei!</h1>
+        <p class="message">Aku ingin memberitahumu sesuatu yang penting. Sejak aku bertemu denganmu, hari-hariku terasa lebih cerah. Kamu membuatku merasa sangat bahagia dan istimewa.</p>
+        <p class="message">Jadi, aku ingin bertanya...</p>
+        <div class="question-box">
+            <p class="question">Maukah kamu menjadi pacarku?</p>
+        </div>
+        <button class="yes-button">Ya!</button>
+        <button class="no-button">Maaf, mungkin lain kali.</button>
     </div>
 </body>
 </html>
